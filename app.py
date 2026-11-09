@@ -1,4 +1,9 @@
 import streamlit as st
+st.markdown(
+    "<h1 style='color:#00e5ff;'>HTML TEST SUCCESSFUL</h1>",
+    unsafe_allow_html=True
+)
+
 import pandas as pd
 import joblib
 import ipaddress
