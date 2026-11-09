@@ -299,23 +299,16 @@ with st.sidebar:
 
 st.markdown("""
 <div class="hero">
-
     <div style="font-size:55px;">🛡️</div>
-
-    <div class="hero-title">
-        AI CYBERCRIME DETECTIVE
-    </div>
-
+    <div class="hero-title">AI CYBERCRIME DETECTIVE</div>
     <div class="hero-subtitle">
         ADVANCED AI-POWERED PHISHING URL DETECTION SYSTEM
     </div>
-
     <p style="color:#58d7ff; margin-top:15px;">
         SCAN • DETECT • PROTECT
     </p>
-
 </div>
-""",unsafe_allow_html=True)
+""", unsafe_allow_html=True)
 
 
 # ------------------------------------------
