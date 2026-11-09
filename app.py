@@ -315,7 +315,7 @@ st.markdown("""
     </p>
 
 </div>
-""", unsafe_allow_html=True)
+""",unsafe_allow_html=True)
 
 
 # ------------------------------------------
@@ -423,8 +423,7 @@ with scan_tab:
 
         safe_url = html.escape(result["url"])
 
-        st.markdown(
-            f"""
+        st.markdown(f"""
             <div class="panel">
                 <div class="small-note">SCANNED URL</div>
                 <div style="font-size:16px; color:#63d9ff;
@@ -432,8 +431,7 @@ with scan_tab:
                     {safe_url}
                 </div>
             </div>
-            """,
-            unsafe_allow_html=True
+            """,unsafe_allow_html=True
         )
 
         probability = result["probability"]
@@ -658,26 +656,4 @@ with about_tab:
 # ------------------------------------------
 # 12. FOOTER
 # ------------------------------------------
-
-st.markdown("---")
-
-st.markdown("""
-<div style="text-align:center; padding:15px;">
-
-    <div style="font-size:25px;">🛡️</div>
-
-    <div style="color:#63d9ff; font-weight:800;">
-        AI CYBERCRIME DETECTIVE
-    </div>
-
-    <div style="color:#8297b8; font-size:12px;">
-        Built with Python • Machine Learning • Streamlit
-    </div>
-
-    <div style="color:#8297b8; font-size:12px; margin-top:8px;">
-        THINK BEFORE YOU CLICK. STAY CYBER SAFE.
-    </div>
-
-</div>
-""", unsafe_allow_html=True)
 
