@@ -1,9 +1,4 @@
 import streamlit as st
-st.markdown(
-    "<h1 style='color:#00e5ff;'>HTML TEST SUCCESSFUL</h1>",
-    unsafe_allow_html=True
-)
-
 import pandas as pd
 import joblib
 import ipaddress
@@ -22,7 +17,10 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
-
+st.markdown(
+    "<h1 style='color:#00e5ff;'>HTML TEST SUCCESSFUL</h1>",
+    unsafe_allow_html=True
+)
 # ------------------------------------------
 # 2. LOAD TRAINED AI MODEL
 # ------------------------------------------
